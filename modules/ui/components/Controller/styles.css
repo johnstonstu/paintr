@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Faster+One|Orbitron|Stalinist+One");
+
+.formBackground {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formContainer {
+  margin-top: 3rem;
+}
+@media screen and (max-width: 500px) {
+  .nameInput {
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 36px;
+    width: 35vw;
+    text-align: center;
+  }
+}
+.nameInput {
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 36px;
+  width: 25vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .nameSubmit {
+    border: 2px solid darkgrey;
+    border-radius: 25px;
+    background: white;
+    height: 150px;
+    width: 25vw;
+    font-size: 40px;
+    display: block;
+    font-family: monospace;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.nameSubmit {
+  border: 2px solid darkgrey;
+  border-radius: 25px;
+  background: white;
+  height: 100px;
+  width: 20vw;
+  font-size: 40px;
+  display: block;
+  font-family: monospace;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .mobileTitle {
+    font-family: "Bungee Inline", cursive;
+    font-size: 150px;
+    letter-spacing: 7px;
+    margin-bottom: 10rem;
+  }
+}
+.mobileTitle {
+  font-family: "Bungee Inline", cursive;
+  font-size: 150px;
+  letter-spacing: 7px;
+  margin-bottom: 4rem;
+}
+
+.joystickName {
+  font-family: "Orbitron", sans-serif;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 20vh;
+  text-decoration: underline;
+}
+.joystickBoost {
+  font-family: "Faster One", cursive;
+  color: red;
+  border: 2px solid red;
+  padding: 1.2rem;
+  border-radius: 25px;
+  background: white;
+  font-size: 100px;
+  margin-top: 5rem;
+  text-align: center;
+}
+.joystickFrozen {
+  font-family: "Stalinist One", cursive;
+  color: blue;
+  border: 2px solid blue;
+  background: white;
+  border-radius: 25px;
+
+  font-size: 100px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.joystickInfo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

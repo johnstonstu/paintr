@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Press+Start+2P");
+
+.Paintr {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#game {
+  border: 2px solid #000;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  box-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+}
+.gameSection {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.canvas {
+  align-self: center;
+  margin: 0 auto;
+}
+.headerContainer {
+  background: "#000";
+  width: 100vw;
+  color: "#fff";
+  display: flex;
+  justify-content: center;
+}
+.header {
+  height: 70px;
+  padding: 10px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.titleLogo {
+  display: flex;
+}
+.logo {
+  margin-right: 40px;
+}
+/* courtesy of https://codepen.io/nohoid/pen/kIfto?editors=1100 */
+.rainbowBackground {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    124deg,
+    #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
